@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9635F6B213E2CBA005AA7AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9635F6A213E2CBA005AA7AC /* AppDelegate.m */; };
+		C9635F6E213E2CBA005AA7AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9635F6D213E2CBA005AA7AC /* ViewController.m */; };
+		C9635F71213E2CBA005AA7AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9635F6F213E2CBA005AA7AC /* Main.storyboard */; };
+		C9635F73213E2CBA005AA7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9635F72213E2CBA005AA7AC /* Assets.xcassets */; };
+		C9635F76213E2CBA005AA7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9635F74213E2CBA005AA7AC /* LaunchScreen.storyboard */; };
+		C9635F79213E2CBA005AA7AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9635F78213E2CBA005AA7AC /* main.m */; };
+		C9635F83213E2CBA005AA7AC /* YQPanoramViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9635F82213E2CBA005AA7AC /* YQPanoramViewDemoTests.m */; };
+		C9635F8E213E2CBA005AA7AC /* YQPanoramViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9635F8D213E2CBA005AA7AC /* YQPanoramViewDemoUITests.m */; };
+		C9635F9E213E2CFF005AA7AC /* YCPanoramaView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9635F9D213E2CFF005AA7AC /* YCPanoramaView.m */; };
+		C9635FA5213E2ED5005AA7AC /* WechatIMG67.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9635FA0213E2ED5005AA7AC /* WechatIMG67.jpeg */; };
+		C9635FA6213E2ED5005AA7AC /* WechatIMG70.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9635FA1213E2ED5005AA7AC /* WechatIMG70.jpeg */; };
+		C9635FA7213E2ED5005AA7AC /* WechatIMG71.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9635FA2213E2ED5005AA7AC /* WechatIMG71.jpeg */; };
+		C9635FA8213E2ED5005AA7AC /* WechatIMG72.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9635FA3213E2ED5005AA7AC /* WechatIMG72.jpeg */; };
+		C9635FA9213E2ED5005AA7AC /* WechatIMG73.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9635FA4213E2ED5005AA7AC /* WechatIMG73.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9635F7F213E2CBA005AA7AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9635F5E213E2CBA005AA7AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9635F65213E2CBA005AA7AC;
+			remoteInfo = YQPanoramViewDemo;
+		};
+		C9635F8A213E2CBA005AA7AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9635F5E213E2CBA005AA7AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9635F65213E2CBA005AA7AC;
+			remoteInfo = YQPanoramViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9635F66213E2CBA005AA7AC /* YQPanoramViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQPanoramViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9635F69213E2CBA005AA7AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9635F6A213E2CBA005AA7AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9635F6C213E2CBA005AA7AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9635F6D213E2CBA005AA7AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9635F70213E2CBA005AA7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9635F72213E2CBA005AA7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9635F75213E2CBA005AA7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9635F77213E2CBA005AA7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9635F78213E2CBA005AA7AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9635F7E213E2CBA005AA7AC /* YQPanoramViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQPanoramViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9635F82213E2CBA005AA7AC /* YQPanoramViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQPanoramViewDemoTests.m; sourceTree = "<group>"; };
+		C9635F84213E2CBA005AA7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9635F89213E2CBA005AA7AC /* YQPanoramViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQPanoramViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9635F8D213E2CBA005AA7AC /* YQPanoramViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQPanoramViewDemoUITests.m; sourceTree = "<group>"; };
+		C9635F8F213E2CBA005AA7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9635F9C213E2CFF005AA7AC /* YCPanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCPanoramaView.h; sourceTree = "<group>"; };
+		C9635F9D213E2CFF005AA7AC /* YCPanoramaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCPanoramaView.m; sourceTree = "<group>"; };
+		C9635FA0213E2ED5005AA7AC /* WechatIMG67.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG67.jpeg; sourceTree = "<group>"; };
+		C9635FA1213E2ED5005AA7AC /* WechatIMG70.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG70.jpeg; sourceTree = "<group>"; };
+		C9635FA2213E2ED5005AA7AC /* WechatIMG71.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG71.jpeg; sourceTree = "<group>"; };
+		C9635FA3213E2ED5005AA7AC /* WechatIMG72.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG72.jpeg; sourceTree = "<group>"; };
+		C9635FA4213E2ED5005AA7AC /* WechatIMG73.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG73.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9635F63213E2CBA005AA7AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9635F7B213E2CBA005AA7AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9635F86213E2CBA005AA7AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9635F5D213E2CBA005AA7AC = {
+			isa = PBXGroup;
+			children = (
+				C9635F68213E2CBA005AA7AC /* YQPanoramViewDemo */,
+				C9635F81213E2CBA005AA7AC /* YQPanoramViewDemoTests */,
+				C9635F8C213E2CBA005AA7AC /* YQPanoramViewDemoUITests */,
+				C9635F67213E2CBA005AA7AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9635F67213E2CBA005AA7AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9635F66213E2CBA005AA7AC /* YQPanoramViewDemo.app */,
+				C9635F7E213E2CBA005AA7AC /* YQPanoramViewDemoTests.xctest */,
+				C9635F89213E2CBA005AA7AC /* YQPanoramViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9635F68213E2CBA005AA7AC /* YQPanoramViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C9635F9B213E2CFF005AA7AC /* YCPanoramaView */,
+				C9635F69213E2CBA005AA7AC /* AppDelegate.h */,
+				C9635F6A213E2CBA005AA7AC /* AppDelegate.m */,
+				C9635F6C213E2CBA005AA7AC /* ViewController.h */,
+				C9635F6D213E2CBA005AA7AC /* ViewController.m */,
+				C9635F6F213E2CBA005AA7AC /* Main.storyboard */,
+				C9635F72213E2CBA005AA7AC /* Assets.xcassets */,
+				C9635F74213E2CBA005AA7AC /* LaunchScreen.storyboard */,
+				C9635F77213E2CBA005AA7AC /* Info.plist */,
+				C9635F78213E2CBA005AA7AC /* main.m */,
+			);
+			path = YQPanoramViewDemo;
+			sourceTree = "<group>";
+		};
+		C9635F81213E2CBA005AA7AC /* YQPanoramViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9635F9F213E2ED5005AA7AC /* DemoImage */,
+				C9635F82213E2CBA005AA7AC /* YQPanoramViewDemoTests.m */,
+				C9635F84213E2CBA005AA7AC /* Info.plist */,
+			);
+			path = YQPanoramViewDemoTests;
+			sourceTree = "<group>";
+		};
+		C9635F8C213E2CBA005AA7AC /* YQPanoramViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9635F8D213E2CBA005AA7AC /* YQPanoramViewDemoUITests.m */,
+				C9635F8F213E2CBA005AA7AC /* Info.plist */,
+			);
+			path = YQPanoramViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		C9635F9B213E2CFF005AA7AC /* YCPanoramaView */ = {
+			isa = PBXGroup;
+			children = (
+				C9635F9C213E2CFF005AA7AC /* YCPanoramaView.h */,
+				C9635F9D213E2CFF005AA7AC /* YCPanoramaView.m */,
+			);
+			path = YCPanoramaView;
+			sourceTree = "<group>";
+		};
+		C9635F9F213E2ED5005AA7AC /* DemoImage */ = {
+			isa = PBXGroup;
+			children = (
+				C9635FA0213E2ED5005AA7AC /* WechatIMG67.jpeg */,
+				C9635FA1213E2ED5005AA7AC /* WechatIMG70.jpeg */,
+				C9635FA2213E2ED5005AA7AC /* WechatIMG71.jpeg */,
+				C9635FA3213E2ED5005AA7AC /* WechatIMG72.jpeg */,
+				C9635FA4213E2ED5005AA7AC /* WechatIMG73.jpeg */,
+			);
+			path = DemoImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9635F65213E2CBA005AA7AC /* YQPanoramViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9635F92213E2CBA005AA7AC /* Build configuration list for PBXNativeTarget "YQPanoramViewDemo" */;
+			buildPhases = (
+				C9635F62213E2CBA005AA7AC /* Sources */,
+				C9635F63213E2CBA005AA7AC /* Frameworks */,
+				C9635F64213E2CBA005AA7AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQPanoramViewDemo;
+			productName = YQPanoramViewDemo;
+			productReference = C9635F66213E2CBA005AA7AC /* YQPanoramViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9635F7D213E2CBA005AA7AC /* YQPanoramViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9635F95213E2CBA005AA7AC /* Build configuration list for PBXNativeTarget "YQPanoramViewDemoTests" */;
+			buildPhases = (
+				C9635F7A213E2CBA005AA7AC /* Sources */,
+				C9635F7B213E2CBA005AA7AC /* Frameworks */,
+				C9635F7C213E2CBA005AA7AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9635F80213E2CBA005AA7AC /* PBXTargetDependency */,
+			);
+			name = YQPanoramViewDemoTests;
+			productName = YQPanoramViewDemoTests;
+			productReference = C9635F7E213E2CBA005AA7AC /* YQPanoramViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9635F88213E2CBA005AA7AC /* YQPanoramViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9635F98213E2CBA005AA7AC /* Build configuration list for PBXNativeTarget "YQPanoramViewDemoUITests" */;
+			buildPhases = (
+				C9635F85213E2CBA005AA7AC /* Sources */,
+				C9635F86213E2CBA005AA7AC /* Frameworks */,
+				C9635F87213E2CBA005AA7AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9635F8B213E2CBA005AA7AC /* PBXTargetDependency */,
+			);
+			name = YQPanoramViewDemoUITests;
+			productName = YQPanoramViewDemoUITests;
+			productReference = C9635F89213E2CBA005AA7AC /* YQPanoramViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9635F5E213E2CBA005AA7AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "杨闯";
+				TargetAttributes = {
+					C9635F65213E2CBA005AA7AC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					C9635F7D213E2CBA005AA7AC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C9635F65213E2CBA005AA7AC;
+					};
+					C9635F88213E2CBA005AA7AC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C9635F65213E2CBA005AA7AC;
+					};
+				};
+			};
+			buildConfigurationList = C9635F61213E2CBA005AA7AC /* Build configuration list for PBXProject "YQPanoramViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9635F5D213E2CBA005AA7AC;
+			productRefGroup = C9635F67213E2CBA005AA7AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9635F65213E2CBA005AA7AC /* YQPanoramViewDemo */,
+				C9635F7D213E2CBA005AA7AC /* YQPanoramViewDemoTests */,
+				C9635F88213E2CBA005AA7AC /* YQPanoramViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9635F64213E2CBA005AA7AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9635F76213E2CBA005AA7AC /* LaunchScreen.storyboard in Resources */,
+				C9635F73213E2CBA005AA7AC /* Assets.xcassets in Resources */,
+				C9635F71213E2CBA005AA7AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9635F7C213E2CBA005AA7AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9635FA7213E2ED5005AA7AC /* WechatIMG71.jpeg in Resources */,
+				C9635FA6213E2ED5005AA7AC /* WechatIMG70.jpeg in Resources */,
+				C9635FA9213E2ED5005AA7AC /* WechatIMG73.jpeg in Resources */,
+				C9635FA8213E2ED5005AA7AC /* WechatIMG72.jpeg in Resources */,
+				C9635FA5213E2ED5005AA7AC /* WechatIMG67.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9635F87213E2CBA005AA7AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9635F62213E2CBA005AA7AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9635F6E213E2CBA005AA7AC /* ViewController.m in Sources */,
+				C9635F79213E2CBA005AA7AC /* main.m in Sources */,
+				C9635F6B213E2CBA005AA7AC /* AppDelegate.m in Sources */,
+				C9635F9E213E2CFF005AA7AC /* YCPanoramaView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9635F7A213E2CBA005AA7AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9635F83213E2CBA005AA7AC /* YQPanoramViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9635F85213E2CBA005AA7AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9635F8E213E2CBA005AA7AC /* YQPanoramViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9635F80213E2CBA005AA7AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9635F65213E2CBA005AA7AC /* YQPanoramViewDemo */;
+			targetProxy = C9635F7F213E2CBA005AA7AC /* PBXContainerItemProxy */;
+		};
+		C9635F8B213E2CBA005AA7AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9635F65213E2CBA005AA7AC /* YQPanoramViewDemo */;
+			targetProxy = C9635F8A213E2CBA005AA7AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9635F6F213E2CBA005AA7AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9635F70213E2CBA005AA7AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9635F74213E2CBA005AA7AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9635F75213E2CBA005AA7AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9635F90213E2CBA005AA7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9635F91213E2CBA005AA7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9635F93213E2CBA005AA7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YQPanoramViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dateDemoList.YQPanoramViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9635F94213E2CBA005AA7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YQPanoramViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dateDemoList.YQPanoramViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9635F96213E2CBA005AA7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YQPanoramViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dateDemoList.YQPanoramViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQPanoramViewDemo.app/YQPanoramViewDemo";
+			};
+			name = Debug;
+		};
+		C9635F97213E2CBA005AA7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YQPanoramViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dateDemoList.YQPanoramViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQPanoramViewDemo.app/YQPanoramViewDemo";
+			};
+			name = Release;
+		};
+		C9635F99213E2CBA005AA7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YQPanoramViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dateDemoList.YQPanoramViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YQPanoramViewDemo;
+			};
+			name = Debug;
+		};
+		C9635F9A213E2CBA005AA7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YQPanoramViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dateDemoList.YQPanoramViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YQPanoramViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9635F61213E2CBA005AA7AC /* Build configuration list for PBXProject "YQPanoramViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9635F90213E2CBA005AA7AC /* Debug */,
+				C9635F91213E2CBA005AA7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9635F92213E2CBA005AA7AC /* Build configuration list for PBXNativeTarget "YQPanoramViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9635F93213E2CBA005AA7AC /* Debug */,
+				C9635F94213E2CBA005AA7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9635F95213E2CBA005AA7AC /* Build configuration list for PBXNativeTarget "YQPanoramViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9635F96213E2CBA005AA7AC /* Debug */,
+				C9635F97213E2CBA005AA7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9635F98213E2CBA005AA7AC /* Build configuration list for PBXNativeTarget "YQPanoramViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9635F99213E2CBA005AA7AC /* Debug */,
+				C9635F9A213E2CBA005AA7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9635F5E213E2CBA005AA7AC /* Project object */;
+}

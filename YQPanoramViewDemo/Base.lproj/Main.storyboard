@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hzq-zc-mX9">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Kf2-sn-HIl">
+            <objects>
+                <viewController id="hzq-zc-mX9" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CjV-M3-U7r"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZiA-1T-5j9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xye-Mg-X5j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鱼眼效果（建议开启）" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADc-vy-5dh">
+                                <rect key="frame" x="68" y="633" width="234" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="gOr-Tq-3Y8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EIN-iq-syu">
+                                <rect key="frame" x="310" y="628" width="51" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="8ql-e3-ZLv"/>
+                                    <constraint firstAttribute="width" constant="49" id="yAb-4g-F6s"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="touchedSwitch:" destination="hzq-zc-mX9" eventType="valueChanged" id="JC0-jC-SJV"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZh-nA-5NC">
+                                <rect key="frame" x="16" y="629" width="44" height="30"/>
+                                <color key="backgroundColor" red="0.81340233760000002" green="1" blue="0.73236454870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="5sr-V5-dGU"/>
+                                    <constraint firstAttribute="height" constant="30" id="m0c-yF-yRP"/>
+                                </constraints>
+                                <state key="normal" title="换图"/>
+                                <connections>
+                                    <action selector="touchedBTN:" destination="hzq-zc-mX9" eventType="touchUpInside" id="XbE-rl-IxL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EIN-iq-syu" firstAttribute="trailing" secondItem="xye-Mg-X5j" secondAttribute="trailingMargin" id="8gS-ZS-XPE"/>
+                            <constraint firstItem="mZh-nA-5NC" firstAttribute="leading" secondItem="xye-Mg-X5j" secondAttribute="leadingMargin" id="MEi-Yx-17Z"/>
+                            <constraint firstItem="ZiA-1T-5j9" firstAttribute="top" secondItem="ADc-vy-5dh" secondAttribute="bottom" constant="13" id="Oxo-rR-gfP"/>
+                            <constraint firstItem="ZiA-1T-5j9" firstAttribute="top" secondItem="EIN-iq-syu" secondAttribute="bottom" constant="8" id="PNb-a6-6iJ"/>
+                            <constraint firstItem="ZiA-1T-5j9" firstAttribute="top" secondItem="mZh-nA-5NC" secondAttribute="bottom" constant="8" id="t2A-wJ-EBQ"/>
+                            <constraint firstItem="EIN-iq-syu" firstAttribute="leading" secondItem="ADc-vy-5dh" secondAttribute="trailing" constant="8" id="xGC-Wt-Olp"/>
+                            <constraint firstItem="ADc-vy-5dh" firstAttribute="leading" secondItem="mZh-nA-5NC" secondAttribute="trailing" constant="8" id="yOS-Nf-ArV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="c5b-3D-0tJ"/>
+                    </view>
+                    <connections>
+                        <outlet property="theswitch" destination="EIN-iq-syu" id="ip3-O4-NFc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="POs-fh-Af7" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="223" y="-133"/>
+        </scene>
+    </scenes>
+</document>
